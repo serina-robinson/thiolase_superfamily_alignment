@@ -1,0 +1,60 @@
+;   MEGA-CC (Molecular Evolutionary Genetics Analysis Compute Core)
+;
+;   Suggested Citation for MEGA-CC 7:
+;
+;   Kumar S, Stecher G, Tamura K (2016)
+;   MEGA7: Molecular Evolutionary Genetics Analysis 7.0 for bigger datasets
+;   Molecular Biology and Evolution 33:1870-1874
+;
+;   Kumar S, Stecher G, Peterson D, and Tamura K (2012)
+;   MEGA-CC: Computing Core of Molecular Evolutionary Genetics
+;   Analysis Program for Automated and Iterative Data Analysis.
+;   Bioinformatics (2012) 28:2685-2686 (Epub 2012 Aug 24)
+
+[General Info]
+
+	Data Type                               = amino acid
+	No. of Taxa                             =       26
+	No. of Sites                            =      227
+	Data File                               = '/Users/robi0916/Documents/University_of_Minnesota/Wackett_Lab/github/thiolase_superfamily_alignment/output/26_thiolase_aligned.fasta'
+	Settings File                           = './infer_ML_protein_no_bootstrap.mao'
+	Command Line                            = megacc -a infer_ML_protein_no_bootstrap.mao -d /Users/robi0916/Documents/University_of_Minnesota/Wackett_Lab/github/thiolase_superfamily_alignment/output/26_thiolase_aligned.fasta -o /Users/robi0916/Documents/University_of_Minnesota/Wackett_Lab/github/thiolase_superfamily_alignment/data/26_thiolase_aligned.nwk
+
+[Analysis Settings]
+
+	Analysis                                = Phylogeny Reconstruction
+	Statistical Method                      = Maximum Likelihood
+	Test of Phylogeny                       = None
+	No. of Bootstrap Replications           = Not Applicable
+	Substitutions Type                      = Amino acid
+	Model/Method                            = WAG model
+	Rates among Sites                       = Uniform Rates
+	No of Discrete Gamma Categories         = Not Applicable
+	Gaps/Missing Data Treatment             = Complete deletion
+	Site Coverage Cutoff (%)                = Not Applicable
+	ML Heuristic Method                     = Nearest-Neighbor-Interchange (NNI)
+	Initial Tree for ML                     = Make initial tree automatically (Default - NJ/BioNJ)
+	Branch Swap Filter                      = None
+	Number of Threads                       = 1
+	Has Time Limit                          = False
+	Maximum Execution Time                  = -1
+	datatype                                = snProtein
+	MissingBaseSymbol                       = ?
+	IdenticalBaseSymbol                     = .
+	GapSymbol                               = -
+
+[Analysis Statistics]
+
+	Start Time                              = 5-10-19 19:45:35
+	End Time                                = 5-10-19 19:45:54
+	Execution Time                          =   19.090 (seconds)
+	Peak Memory Used(Working Set)           = Not available
+	Sum of branch lengths                   =   15.673
+	Model                                   = Whelan-Goldman (2001) WAG model
+	Num of params                           =       49
+	Num of rates                            =        1
+	AICc                                    = 20989.773
+	BIC                                     = 21316.405
+	LnL                                     = -10445.468
+	Invar                                   = n/a
+	Gamma                                   = n/a
